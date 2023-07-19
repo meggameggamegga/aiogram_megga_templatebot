@@ -4,7 +4,7 @@ from aiogram import Bot,Dispatcher
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.utils import executor
 
-import config
+from aiogram_megga_templatebot import config
 
 bot = Bot(config.BOT_TOKEN,parse_mode='HTML')
 storage = MemoryStorage()
